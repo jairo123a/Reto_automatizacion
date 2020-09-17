@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Ingresar al sitio web para diligenciar los datos de registro de un usuario y verificar su registro" skipped="0" tests="1" time="38.24" timestamp="2020-09-17 11:29:00"><testcase name="Ingresar al sitio web utest.com  y realizar un registro de un usuario"><failure message="&#10;Expected: an element that is visible&#10;     but: no matching element found by xpath: //a[@aria-label='Next - final step']" type="java.lang.AssertionError">
+Expected: an element that is visible
+     but: no matching element found by xpath: //a[@aria-label='Next - final step']</failure><system-err>
+Expected: an element that is visible
+     but: no matching element found by xpath: //a[@aria-label='Next - final step']&#13;
+tasks.Registrar.performAs(Registrar.java:36)&#13;
+Prueba.stepdefinitions.StepDefinition.ingresarARegistroYDiligenciarLosDatosDeIngreso(StepDefinition.java:40)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
